@@ -316,6 +316,23 @@
       <Link>Properties\GlobalAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="ArchivingPrograms.cs" />
+    <Compile Include="CMDI\CMDIArchivingDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMDI\CMDIArchivingDlgViewModel.cs" />
+    <Compile Include="CMDI\CMDIContributor.cs" />
+    <Compile Include="CMDI\CMDIFile.cs" />
+    <Compile Include="CMDI\CMDIPackage.cs" />
+    <Compile Include="CMDI\Lists\BooleanEnum.cs" />
+    <Compile Include="CMDI\Lists\ItemListBase.cs" />
+    <Compile Include="CMDI\Lists\LanguageList.cs" />
+    <Compile Include="CMDI\Lists\ListConstructor.cs" />
+    <Compile Include="CMDI\Lists\ListType.cs" />
+    <Compile Include="CMDI\Schema\CMDIDescription.cs" />
+    <Compile Include="CMDI\Schema\CMDIExtensions.cs" />
+    <Compile Include="CMDI\Schema\CMDIInterfaces.cs" />
+    <Compile Include="CMDI\Schema\CMDISchemaHelper.cs" />
+    <Compile Include="CMDI\Schema\CMDI_3_0.cs" />
     <Compile Include="Generic\AccessProtocol\AccessProtocolList.cs" />
     <Compile Include="Generic\ArchivingAccess.cs" />
     <Compile Include="Generic\ArchivingActor.cs" />
@@ -412,7 +429,7 @@
     <None Include="Resources\elar.html" />
     <None Include="Resources\tla.html" />
   </ItemGroup>
-  <ItemGroup/>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
 	   Other similar extension points exist, see Microsoft.Common.targets.

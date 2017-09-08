@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.IO;
 using SIL.PlatformUtilities;
@@ -33,6 +33,12 @@ namespace SIL.Archiving.Generic
 		public static string SilCommonIMDIDataFolder
 		{
 			get { return CheckFolder(Path.Combine(SilCommonArchivingDataFolder, "IMDI")); }
+		}
+
+		/// <summary />
+		public static string SilCommonCMDIDataFolder
+		{
+			get { return CheckFolder(Path.Combine(SilCommonArchivingDataFolder, "CMDI")); }
 		}
 
 		/// <summary />
